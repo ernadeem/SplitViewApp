@@ -128,6 +128,8 @@ class DetailViewController : UIViewController,SplitViewDidSelect {
     
     func didTap(_ value: String) {
         
+        // Added Test Case
+        
         label.text =  value
         view.backgroundColor = .red
     }
