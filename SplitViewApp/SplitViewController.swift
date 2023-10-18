@@ -15,7 +15,7 @@ class SplitViewController: UIViewController {
 
         let button  =  UIButton(frame: CGRect(x: 0, y: 0, width: 150, height: 40))
         button.center = self.view.center
-        button.setTitle("Open Split View ", for: .normal)
+        button.setTitle("Open Split View Controller", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .red
         
