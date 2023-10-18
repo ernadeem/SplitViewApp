@@ -13,10 +13,6 @@ class SplitViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        // Feature branch changes
-        // Feature branch changes 2
-
-        
         let button  =  UIButton(frame: CGRect(x: 0, y: 0, width: 150, height: 40))
         button.center = self.view.center
         button.setTitle("Open Split View ", for: .normal)
